@@ -1,0 +1,32 @@
+{
+    {
+        "data":[
+                {
+                    "SepalLengthCm":6.1,
+                    "SepalWidthCm":3.0,
+                    "PetalLengthCm":4.9,	
+                    "PetalWidthCm":1.8
+                }
+            ]
+    }
+    {
+        "target":[
+            "Iris-virginica"
+            ]
+    }
+    {
+        "data":[
+                {
+                    "SepalLengthCm":5.5,
+                    "SepalWidthCm":2.3,
+                    "PetalLengthCm":4.0,	
+                    "PetalWidthCm":1.3
+                }
+            ]
+    }
+    {
+        "target":[
+            "Iris-versicolor"
+            ]
+    }
+}
