@@ -24,10 +24,10 @@ def predict():
     test = df.iloc[:,:]
 
     # Load the model
-    model = joblib.load('best_irirs_model_gridsearchcv.pkl')
+    model = joblib.load('best_iris_model_gridsearchcv.pkl')
     
     prediction = model.predict(test)
     return jsonify({'prediction': prediction.tolist()})
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=False, host='0.0.0.0', port=5000)
